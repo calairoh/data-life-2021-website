@@ -1,4 +1,4 @@
-document.ready(function(){
+$(document).ready(function(){
     initNavbarScroll();
 });
 
@@ -7,10 +7,10 @@ document.ready(function(){
  */
 function initNavbarScroll(){
     $('.navigation-handler').click(function(){
-        if($(this).hasClass('closed')){
-            $(this).removeClass('closed');
+        if($('ol.nav-ol').hasClass('closed')){
+            $('ol.nav-ol').removeClass('closed');
         } else {
-            $(this).addClass('closed');
+            $('ol.nav-ol').addClass('closed');
         }
     });
 }
