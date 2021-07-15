@@ -9,14 +9,14 @@
 }
 
 @font-face {
-  font-family: "Paysage";
-  src: url("../fonts/Paysage-Regular.woff2");
+  font-family: "AT Surt";
+  src: url("../fonts/AT\ Surt\ Regular.otf");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Paysage";
-  src: url("../fonts/Paysage-Bold.woff2");
+  font-family: "AT Surt";
+  src: url("../fonts/AT\ Surt\ Bold.otf");
   font-weight: 700;
 }
 
