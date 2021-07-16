@@ -1,5 +1,5 @@
 html {
-    --color-main: #007aff;
+    --color-main: #333333;
     --color-text: #333333;
     --color-text-lighter: #DDDDDD;
     --color-background: #f2f2f2;
@@ -182,7 +182,7 @@ html {
   }
   
   #question-container .intro-text {
-    font-size: 2rem;
+    font-size: 27px;
     color: var(--color-main);
   }
   

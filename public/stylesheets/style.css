@@ -20,6 +20,12 @@
   font-weight: 700;
 }
 
+@font-face {
+  font-family: "AT Surt";
+  src: url("../fonts/AT\ Surt\ Light.otf");
+  font-weight: 100;
+}
+
 
 html {
   height: 100%;
