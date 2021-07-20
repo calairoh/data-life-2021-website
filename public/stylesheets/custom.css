@@ -1,6 +1,5 @@
 @import url("https://use.typekit.net/icz6cdr.css");
 
-
 html {
   --color-main: white;
   --color-main-lighter: #FC9E4F;
@@ -12,21 +11,16 @@ html {
 }
 
 html p,h1,h2,h3,h4{
-    font-family: 'acumin-pro', helvetica, sans-serif;
+    font-family: 'AT Surt', helvetica, sans-serif;
 }
-
-
 
 mark{
     background-color: white;
     color: #16181f;
 }
 
-
-
 .cover h1 {
-
-text-shadow: 1px 1px 4px rgba(255,255,255,0.5), 1px 1px 4px rgba(255,255,255,0.5) ;
+  text-shadow: 1px 1px 4px rgba(255,255,255,0.5), 1px 1px 4px rgba(255,255,255,0.5) ;
 }
 
 .cover__subtitle {
@@ -65,6 +59,7 @@ text-shadow: 1px 1px 4px rgba(255,255,255,0.5), 1px 1px 4px rgba(255,255,255,0.5
 .invisibile {
   display: none;
 }
+
 .Tvisibile {
   opacity: 1;
 }
@@ -127,6 +122,7 @@ text-shadow: 1px 1px 4px rgba(255,255,255,0.5), 1px 1px 4px rgba(255,255,255,0.5
 .question__card, img{
     max-width:80%;
 }
+
 #nicetooltip {
   position: absolute;
   display: flex;

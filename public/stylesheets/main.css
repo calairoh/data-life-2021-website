@@ -1,9 +1,9 @@
 html {
-    --color-main: #007aff;
+    --color-main: #333333;
     --color-text: #333333;
     --color-text-lighter: #DDDDDD;
-    --color-background: #fbfbfd;
-    --font-display: "DM Sans", sans-serif;
+    --color-background: #f2f2f2;
+    --font-display: "AT Surt", sans-serif;
     --font-text: "Crimson Pro", serif;
   
     --nav-height: 60px;
@@ -31,7 +31,7 @@ html {
   h4,
   h5 {
     font-family: var(--font-display);
-    color: var(--color-main);
+    color: black;
     margin-top: 0;
   }
   
@@ -177,12 +177,16 @@ html {
   
   /* Question */
   
+  #overlap-image{
+    margin-left: -200px;
+  }
+
   #question-container {
     margin-top: 3rem;
   }
   
   #question-container .intro-text {
-    font-size: 2rem;
+    font-size: 22px;
     color: var(--color-main);
   }
   
@@ -216,11 +220,14 @@ html {
   
   }
   
-  
+  .images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
   #question-container h2,
   h2 {
-    text-transform: uppercase;
     color: var(--color-text);
     font-size: 1.8rem;
     font-weight: 700;
@@ -242,7 +249,6 @@ html {
   }
   
   .question-title h3 {
-    text-transform: uppercase;
     font-size: 1.2rem;
   }
   
@@ -282,6 +288,15 @@ html {
     font-size: 0.75rem;
   }
   
+  /* Charts */
+  .chart-svg{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   /* Navigation */
   #questions-navigation {
     position: sticky;

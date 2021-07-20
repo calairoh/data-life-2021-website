@@ -1,1 +1,49 @@
 extends ../layout
+
+block content
+    main.container#question-container
+        div.question-title
+            h3 DATA-LIFE 2021
+            h1 What is the behavior of blood donation organizations on social media and how does this differ by platform and location?
+            h3 Followers for different blood banks on Twitter and Instagram
+        
+        div.chart-svg
+            include ../../public/charts/question2/chart1.svg
+
+        p.intro-text Since social media provides an opportunity to reach a different audience than traditional forms of communication, the influence of blood donation organizations' on these platforms may be an indicator of donor recruitment. The goal is to understand the behavior of blood donation organizations on social media by comparing platforms (Instagram and Twitter) and locations (NYC and Milan). Focusing on the main blood donation centers in Italy, AVIS, and New York City, NYBC, we investigated various metrics such as the number of followers, number of monthly posts/mentions and likes per post. Findings from our survey can also provide insight as to how young people interact with these organizations on social media to discover potential engagement strategies.
+
+        div.main-text-title
+            h3 Main findings
+        
+        div.main-text
+            p From social media analysis, we found that the Instagram following for AVIS was significantly larger than their Twitter following as well as the Instagram and Twitter following of NYBC. Contrarily, NYBC has a similar number of followers on both platforms with Twitter slightly exceeding Instagram. Despite its large following on the platform, AVIS does not post or is mentioned on Instagram as frequently on a monthly basis as NYBC.
+
+            div.chart-svg 
+                include ../../public/charts/question2/chart2.svg
+        
+        hr
+
+        div.main-text
+            p Twitter data reveals a different story. Even though its Twitter following is two percent of its Instagram following, AVIS posts and is mentioned far more frequently on this platform. So, the number of followers on each platform does not seem to dictate how often these organizations post or are mentioned.  What does this mean for engagement?
+        
+            h3 Frequency of posts on Instagram
+            div.chart-svg 
+                include ../../public/charts/question2/chart3.svg
+        
+            h3 Frequency of mentions on Instagram
+            div.chart-svg 
+                include ../../public/charts/question2/chart4.svg
+        
+        hr
+
+        div.main-text
+            p Engagement seems to be more directly tied with the number of followers for each platform and could also be a result of the frequency of posting as well. Though AVIS posts less frequently than NYBC on Instagram, each post generates more likes. Again, Twitter posts show a different pattern; AVIS posts more frequently and seems to generate more likes per post.
+        
+            h3 Engagement on Twitter
+            div.chart-svg 
+                include ../../public/charts/question2/chart5.svg
+
+            h3 Engagement on Instagram
+            p Similar to what we found from our social media analysis, results from the survey indicate that Italian respondents in our target group (those who considered donating blood recently but have not done so) are 3x more likely to follow the blood donation organizations in their area compared to American respondents in the same group. However, less than 20% of respondents are currently following these institutions on social media. Since we found that the AVIS Instagram account generates the most engagement, as measured by likes, most likely due to its large following, a possible engagement strategy are initiatives to increase the number of followers. This could increase the visibility of these organizations on social media, and potentially recruit more donors. 
+
+        hr

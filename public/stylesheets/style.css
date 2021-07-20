@@ -9,15 +9,21 @@
 }
 
 @font-face {
-  font-family: "Paysage";
-  src: url("../fonts/Paysage-Regular.woff2");
+  font-family: "AT Surt";
+  src: url("../fonts/AT\ Surt\ Regular.otf");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Paysage";
-  src: url("../fonts/Paysage-Bold.woff2");
+  font-family: "AT Surt";
+  src: url("../fonts/AT\ Surt\ Bold.otf");
   font-weight: 700;
+}
+
+@font-face {
+  font-family: "AT Surt";
+  src: url("../fonts/AT\ Surt\ Light.otf");
+  font-weight: 100;
 }
 
 
@@ -111,7 +117,7 @@ main h1:first-child {
 }
 
 main p, main ul, main ol {
-  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  font-family: "AT Surt", Helvetica, Arial, sans-serif;
   line-height: 1.5rem;
   font-size: 1rem;
 }
