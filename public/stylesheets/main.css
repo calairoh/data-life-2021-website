@@ -177,12 +177,16 @@ html {
   
   /* Question */
   
+  #overlap-image{
+    margin-left: -200px;
+  }
+
   #question-container {
     margin-top: 3rem;
   }
   
   #question-container .intro-text {
-    font-size: 27px;
+    font-size: 22px;
     color: var(--color-main);
   }
   
@@ -216,7 +220,11 @@ html {
   
   }
   
-  
+  .images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
   #question-container h2,
   h2 {
