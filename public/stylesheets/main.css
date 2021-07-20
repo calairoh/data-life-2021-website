@@ -288,6 +288,15 @@ html {
     font-size: 0.75rem;
   }
   
+  /* Charts */
+  .chart-svg{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   /* Navigation */
   #questions-navigation {
     position: sticky;
