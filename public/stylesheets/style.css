@@ -15,13 +15,13 @@
 }
 
 @font-face {
-  font-family: "AT Surt";
+  font-family: "AT Surt Bold";
   src: url("../fonts/AT\ Surt\ Bold.otf");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "AT Surt";
+  font-family: "AT Surt Light";
   src: url("../fonts/AT\ Surt\ Light.otf");
   font-weight: 100;
 }
@@ -118,8 +118,8 @@ main h1:first-child {
 
 main p, main ul, main ol {
   font-family: "AT Surt", Helvetica, Arial, sans-serif;
-  line-height: 1.5rem;
-  font-size: 1rem;
+  /*line-height: 1.5rem;*/
+  font-size: 15px;
 }
 
 main a {

@@ -1,6 +1,6 @@
 html {
     --color-main: #333333;
-    --color-text: #333333;
+    --color-text: #000000;
     --color-text-lighter: #DDDDDD;
     --color-background: #f2f2f2;
     --font-display: "AT Surt", sans-serif;
@@ -30,7 +30,7 @@ html {
   h3,
   h4,
   h5 {
-    font-family: var(--font-display);
+    font-family: 'AT Surt Bold', Helvetica, sans-serif;
     color: black;
     margin-top: 0;
   }
@@ -47,7 +47,7 @@ html {
   
   p {
     font-size: 1.2rem;
-    line-height: 1.5;
+    /*line-height: 1.8rem;*/
     margin-block-start: 0em;
   }
   
@@ -224,6 +224,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1rem;
   }
   
   #question-container h2,
@@ -249,7 +250,11 @@ html {
   }
   
   .question-title h3 {
-    font-size: 1.2rem;
+    font-size: 25px;
+  }
+
+  .question-title h4 {
+    font-size: 21px;
   }
   
   #datasets-container {
