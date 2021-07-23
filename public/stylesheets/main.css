@@ -438,7 +438,7 @@ html {
       font-size: 1.5rem;
     }
   
-    #question-container * {
+    /*#question-container * {
       grid-column: 1 / span 4;
-    }
+    }*/
   }
