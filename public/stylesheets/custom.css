@@ -19,12 +19,7 @@ mark{
     color: #16181f;
 }
 
-.cover h1 {
-  text-shadow: 1px 1px 4px rgba(255,255,255,0.5), 1px 1px 4px rgba(255,255,255,0.5) ;
-}
-
 .cover__subtitle {
-  text-shadow: 1px 1px 3px white, 1px 1px 3px white;
   line-height: 1.3;
   padding-left: 10px !important;
   padding-right: 10px !important;
@@ -32,8 +27,9 @@ mark{
 
 .cover p{
   line-height: 1.3;
-  padding-left: 10px !important;
-  padding-right: 10px !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  font-family: 'AT Surt', Helvetica, sans-serif;
 }
 
 .etichetta {
