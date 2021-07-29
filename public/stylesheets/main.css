@@ -40,12 +40,6 @@ h4 {
   text-transform: uppercase;
 }
 
-a,
-a:visited {
-  color: #ffffff;
-  text-decoration: none;
-}
-
 p {
   font-size: 1.2rem;
   /*line-height: 1.8rem;*/
