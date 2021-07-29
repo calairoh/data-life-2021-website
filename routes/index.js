@@ -4,6 +4,37 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
+}); 
+
+/* GET about */
+router.get('/about', function(req, res, next) {
+  res.render('about', { title: 'About' });
+});
+
+/* GET collections */
+router.get('/interviews', function(req, res, next) {
+  res.render('collection/interviews', { title: 'Inteviews' });
+});
+
+router.get('/scraping', function(req, res, next) {
+  res.render('collection/scraping', { title: 'Scraping' });
+});
+
+router.get('/survey', function(req, res, next) {
+  res.render('collection/survey', { title: 'Survey' });
+});
+
+/* GET outcomes */
+router.get('/influencers-tool', function(req, res, next) {
+  res.render('outcomes/influencer-tool', { title: 'Influencer tool' });
+});
+
+router.get('/personas-timeline', function(req, res, next) {
+  res.render('outcomes/personas-timeline', { title: 'Personas timeline' });
+});
+
+router.get('/social-media-suggestions', function(req, res, next) {
+  res.render('outcomes/sm-suggestions', { title: 'Social media suggestions' });
 });
 
 /* GET questions */

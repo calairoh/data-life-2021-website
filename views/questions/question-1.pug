@@ -3,10 +3,12 @@ extends ../layout
 block content
     main.container#question-container
         div.question-title
-            h3 DATA-LIFE 2021
-            h1 Do emergencies affect the decision  of young blood donors?
-    
-        div#covid-cases-donation-chart
+                h4 DATA-LIFE 2021
+                h1 Do emergencies affect the decision  of young blood donors?
+                h3 Covid-19 & blood donation
+
+        div.chart-svg.chart-svg-main
+            include ../../public/charts/question1/chart1.svg
 
         p.intro-text Being in or around a state of emergency is a factor that influences a person’s choice to give blood, and to be able to analyze this factor and other related factors can help define a strategy for recruiting new donors and encouraging existing donors to keep donating. This research question seeks to understand whether an emergency is a factor that influences a person’s choice to give blood. First, we analyzed the term “Blood Shortage,” a methodology used to trigger people to donate; this creates a state of emergency where engagement is measured to determine the effectiveness of the term. Then a comparison analysis between the number of COVID cases to the number of Tweets and Instagram posts related to Blood donation, and lastly, #BoycottNYBC Twitter Bomb analysis, another external event that appeared through our Twitter data analysis and it was concluded that it was a Twitter Bomb that appeared for a short period.
 

@@ -1,5 +1,27 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  header.cover
+    div
+      div.cover__image
+      div.cover__background
+      h1.cover__title Data-Life 2021 
+      p.cover__subtitle Understanding the recruitment and loyalty of young blood donors through the analysis of social media engagement strategies
+
+  main.container
+    div.intro
+      div
+        p <b>DATA-LIFE</b> is an interdisciplinary education experience involving students and professors from NYU-CUSP (Center for Urban Science and Progress of the New York University) and from DEIB/Design-POLIMI (Departments of Computer Science and Engineering and of Design of Politecnico di Milano).<br><br> Six selected students, three from NYU and three from Politecnico di Milano, will work collaboratively to solve data science problems, under the supervision of a team of professors from both universities; problems will cross the disciplines of data management, machine learning, data analysis, statistics and mathematics, data visualization and user experience design. Students will craft their solutions by developing the methodology and then the software.<br><br>This joint venture will provide an exciting project work to students in applied data science, with emphasis on the problems of society.
+
+    div.navchart
+      include ../public/images/home/navchart.svg
+
+    div.intro.last-div
+      div
+        p There are multiple layers to our research that focuses on blood shortage, social media, recruitment, and data analysis techniques. Blood shortage is a global issue that continues to be a key challenge. Social media is a powerful approach to understanding and analyzing both donors'/non-donors' attitudes and awareness toward blood donation and the existing community.<br>Blood banks and agencies continue to search for new ways to recruit and retain blood donors. New York Blood Center (NYBC), Red Cross, and AVIS are three blood donation organizations researched in the project.  The NYBC is more concentrated on blood donation than the Red Cross, and AVIS is a national organization with a strong presence in Milan. The group aims to analyze if social media positively impacts recruiting young people to give blood. We also hope to learn about the blood donation community to help blood donation centers recruit young people and increase blood storage. Blood donation centers and city governments should be interested in recruiting young people to donate through social media. People in both cities will benefit from the research because they are the most direct stakeholders in blood donation. Data analysis will allow for the development of identifying different donation and engagement trends.
+
+    hr.footer-divider
+  
+  include footer
+
+

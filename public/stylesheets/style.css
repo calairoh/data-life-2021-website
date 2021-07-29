@@ -2,7 +2,7 @@
   --accent: #403eff;
   --accent-tr: #eabcd5;
   --darker-accent: #29298c;
-  --background: #ffdbee;
+  --background: #f2f2f2;
   --main-color: #0B0D2C;
   --main-lighter: #4D4F65;
   --main-lightest: #E1EAF3;
@@ -15,13 +15,13 @@
 }
 
 @font-face {
-  font-family: "AT Surt";
+  font-family: "AT Surt Bold";
   src: url("../fonts/AT\ Surt\ Bold.otf");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "AT Surt";
+  font-family: "AT Surt Light";
   src: url("../fonts/AT\ Surt\ Light.otf");
   font-weight: 100;
 }
@@ -29,7 +29,6 @@
 
 html {
   height: 100%;
-  background: var(--background);
   overflow-x: hidden;
   font-size: 16px;
 }
@@ -41,6 +40,7 @@ body {
   font-family: "Paysage", "Arial", "Helvetica", sans-serif;
   color: var(--main-color);
   min-height: 100%;
+  background-color: var(--background) !important;
 }
 
 em {
@@ -53,10 +53,10 @@ em {
 }
 
 header {
-  z-index: 9999;
+  z-index: 0;
   font-weight: bold;
   font-size: 1.5rem;
-  position: sticky;
+  position: relative;
   top: 0;
   padding-top: 1rem;
   margin-bottom: 3rem;
@@ -96,7 +96,7 @@ header #intro {
 main {
   grid-column: 1 / 4;
   font-size: 1.3rem;
-  text-indent: 1.5rem;
+  /*text-indent: 1.5rem;*/
   /* These are technically the same, but use both */
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -118,8 +118,8 @@ main h1:first-child {
 
 main p, main ul, main ol {
   font-family: "AT Surt", Helvetica, Arial, sans-serif;
-  line-height: 1.5rem;
-  font-size: 1rem;
+  /*line-height: 1.5rem;*/
+  font-size: 15px;
 }
 
 main a {
@@ -149,7 +149,7 @@ h3 {
 
 a, a:visited {
   font-weight: 700;
-  color: var(--main-color);
+  color: #ffffff;
   transition: opacity 0.3s ease;
 }
 
@@ -168,9 +168,9 @@ ul {
   text-indent: 0;
 }
 
-li {
+/*li {
   margin-bottom: 1rem;
-}
+}*/
 
 table {
   font-size: 1rem;
