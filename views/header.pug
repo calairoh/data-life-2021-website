@@ -2,6 +2,19 @@ div#questions-navigation
     a(href='./' style={padding: '0px 1rem'})
         h4 Home
     
+    a(href='./problem-statement' style={padding: '0px 1rem'})
+        h4 Problem statement
+
+    div.questions--list
+        h4.navigation-handler(style="cursor: pointer;") Data collection methods
+        ol.nav-ol.closed(style="height: calc(1rem + 200px);")
+            li
+                a(href="./scraping") TW & IG scraping
+            li
+                a(href="./survey") Survey
+            li
+                a(href="./interviews") Interviews
+
     div.questions--list
         h4.navigation-handler(style="cursor: pointer;") Research questions
         ol.nav-ol.closed(style="height: calc(1rem + 200px);")
@@ -13,3 +26,16 @@ div#questions-navigation
                 a(href="./question-3") Why do young people have poor knolwedge about blood donation?
             li
                 a(href="./question-4") How does the blood community share interest for other social-ethical topics?
+
+    div.questions--list
+        h4.navigation-handler(style="cursor: pointer;") Outcomes
+        ol.nav-ol.closed(style="height: calc(1rem + 200px);")
+            li
+                a(href="./social-media-suggestions") Social media suggestions
+            li
+                a(href="./influencers-tool") Influencer tools
+            li
+                a(href="./personas-and-timeline") Personas and timeline
+
+    a(href='./about' style={padding: '0px 1rem'})
+        h4 About
