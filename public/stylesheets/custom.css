@@ -156,3 +156,17 @@ mark{
   margin-left:12.6%;
   width: 8.5%;
 }
+
+.navbar{
+  background-color: #B7B7B7;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+#navbarSupportedContent{
+  margin: 0 10%;
+}
