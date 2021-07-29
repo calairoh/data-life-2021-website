@@ -139,9 +139,31 @@ main.container > * {
 }
 
 .intro p {
-  font-size: 1.8rem;
+  font-size: 19px;
   line-height: 1.5;
-  text-indent: 1.2rem;
+  color: #707070;
+}
+
+.navchart{
+  height: 800px;
+}
+
+.navchart > svg{
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin-top: -96px;
+}
+
+.last-div{
+  margin-bottom: 3rem;
+}
+
+.footer-divider{
+  margin: 0 auto 3rem auto;
+  border-top: 1px solid #969696;
+  grid-column: 2 / span 4 !important;
 }
 
 #questions {
