@@ -8,10 +8,10 @@ $(document).ready(function(){
  * Initialize navbar active button
  */
 function initActiveNavbar(){
-    $('.nav-item').click(function(){
+    /*$('.nav-item').click(function(){
         $('.nav-item.active').removeClass('active');
         $(this).addClass('active');
-    });
+    });*/
 }
 
 /**
