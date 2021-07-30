@@ -3,6 +3,7 @@ html {
   --color-text: #707070;
   --color-text-lighter: #DDDDDD;
   --color-background: #f2f2f2;
+  --color-navbar: #B7B7B7;
   --font-display: "AT Surt", sans-serif;
   --font-text: "Crimson Pro", serif;
 
@@ -69,7 +70,6 @@ main.container > * {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding: 1rem 0; */
   height: 100vh;
 }
 
@@ -84,7 +84,7 @@ main.container > * {
 
 .cover .cover__background {
   width: 100%;
-  height: 100vh;
+  height: 85vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -142,11 +142,11 @@ main.container > * {
   color: var(--color-text);
 }
 
-.navchart{
+.navchart {
   height: 800px;
 }
 
-.navchart > svg{
+.navchart > svg {
   position: absolute;
   left: 0;
   right: 0;
@@ -154,54 +154,62 @@ main.container > * {
   margin-top: -96px;
 }
 
-#q1-c1{
+.navchart-link:hover {
+  cursor: pointer;
+}
+
+#q1-c1 {
   margin-top: 150px;
 }
 
-.last-div{
+.last-div {
   margin-bottom: 3rem;
 }
 
-.divider, .footer-divider{
+.divider, .footer-divider {
   border-top: 1px solid #969696;
   grid-column: 1 / span 6 !important;
   width: 100%;
 }
 
-.footer-divider{
+.footer-divider {
   margin: 0 auto 3rem auto;
 }
 
-.divider{
+.divider {
   margin: 2rem auto 3rem auto;
 }
 
-.col-1{
+.col-1 {
   grid-column: 1 / span 1;
 }
 
-.col-3{
+.col-3 {
   grid-column: 3 / span 1;
 }
 
-.col-5{
+.col-5 {
   grid-column: 5 / span 1;
 }
 
-.appendix{
+.appendix {
   color: var(--color-text);
 }
 
-.appendix-title{
+.appendix-title {
   display: flex;
 }
 
-.appendix-title > *{
+.appendix-title:hover {
+  cursor: pointer;
+}
+
+.appendix-title > * {
   font-size: 20px;
   margin-right: 10px;
 }
 
-.appendix-title .bold{
+.appendix-title .bold {
   font-family: 'AT Surt Bold', Helvetica, sans-serif;
 }
 

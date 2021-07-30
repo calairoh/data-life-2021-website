@@ -1,19 +1,17 @@
 $(document).ready(function(){
-    initNavbarScroll();
     initAppendixShowHide();
+    initActiveNavbar();
 });
 
+
 /**
- * Initialize the scoll of the navbar when the click event is triggered 
+ * Initialize navbar active button
  */
-function initNavbarScroll(){
-    $('.navigation-handler').click(function(){
-        if($('ol.nav-ol').hasClass('closed')){
-            $('ol.nav-ol').removeClass('closed');
-        } else {
-            $('ol.nav-ol').addClass('closed');
-        }
-    });
+function initActiveNavbar(){
+    /*$('.nav-item').click(function(){
+        $('.nav-item.active').removeClass('active');
+        $(this).addClass('active');
+    });*/
 }
 
 /**
