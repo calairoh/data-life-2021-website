@@ -49,6 +49,10 @@ img {
   max-width: 100%;
 }
 
+.hidden{
+  display: none;
+}
+
 main.container {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
