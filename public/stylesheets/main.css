@@ -69,7 +69,6 @@ main.container > * {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding: 1rem 0; */
   height: 100vh;
 }
 
@@ -84,7 +83,7 @@ main.container > * {
 
 .cover .cover__background {
   width: 100%;
-  height: 100vh;
+  height: 85vh;
   position: absolute;
   top: 0;
   left: 0;
