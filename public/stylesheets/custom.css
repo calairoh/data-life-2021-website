@@ -166,3 +166,7 @@ mark{
 #navbarSupportedContent{
   margin: 0 10%;
 }
+
+.nav-item{
+  cursor: pointer;
+}
