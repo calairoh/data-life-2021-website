@@ -154,7 +154,7 @@ mark{
 }
 
 .navbar{
-  background-color: #B7B7B7;
+  background-color: var(--color-navbar);
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -163,10 +163,20 @@ mark{
   color: #ffffff;
 }
 
-#navbarSupportedContent{
+#navbarSupportedContent {
   margin: 0 10%;
 }
 
-.nav-item{
+.nav-item {
   cursor: pointer;
+}
+
+.dropdown-menu {
+  background-color: var(--color-navbar) !important;
+  border: 1px solid var(--color-navbar) !important;
+  width: 100%;
+}
+
+.dropdown-item:hover {
+  background-color: var(--accent) !important;
 }
