@@ -48,10 +48,6 @@ em {
   padding: 0 0.2rem;
 }
 
-::selection {
-  background: var(--accent-tr);
-}
-
 header {
   z-index: 0;
   font-weight: bold;
@@ -159,7 +155,7 @@ a, a:visited {
   margin-bottom:1em;
 }
 
-a:hover {
+nav a:hover {
   background: var(--accent);
   color: #ffffff !important;
 }
