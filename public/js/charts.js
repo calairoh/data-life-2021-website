@@ -1,5 +1,6 @@
 $(document).ready(function(){
     initChart1Legend();
+    initNavchartLinks();
 });
 
 function initChart1Legend(){
@@ -10,5 +11,13 @@ function initChart1Legend(){
         $svg.find("path[fill='"+color+"']").each(function(){ 
             $(this).addClass('hidden'); 
         });
+    });
+}
+
+function initNavchartLinks(){
+    $('.navchart-link').click(function(){
+        var url = $(this).data('link');
+
+        location.href = url;
     });
 }
