@@ -562,11 +562,15 @@ h3.indent{
   margin-top: 20px;
 }
 
-/*@media (max-width: 600px) {
-  .footer__item{
-    grid-column: span 6;
-  }
-}*/
+.correlation-map{
+  margin-top: 1rem;
+}
+
+.correlation-map > .chart-svg{
+  width: 120%;
+  margin-left: -15%;
+  margin: 1rem 0 1rem -15%;
+}
 
 @media (max-width: 700px) {
   #question-container .main-text-title {
