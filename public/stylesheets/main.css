@@ -384,6 +384,11 @@ h2 {
 
 .col-3-grid, .col-6-grid{
   text-align: center;
+  min-width: calc(100% / 2);
+}
+
+.note{
+  text-align: center;
 }
 
 .right{
@@ -392,6 +397,17 @@ h2 {
 
 .note{
   font-size: 10px;
+}
+
+.characteristic{
+  background-color: #C4C4C4;
+  width: fit-content;
+  text-align: left;
+  font-size: 1.25rem;
+}
+
+.sub-characteristic{
+  font-size: 1rem;
 }
 
 .no-top-margin{
