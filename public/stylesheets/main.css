@@ -118,6 +118,10 @@ main.container > * {
   color: #ffffff;
 }
 
+.cover__title svg{
+  width: 100%;
+}
+
 .cover .cover__title {
   text-transform: uppercase;
   line-height: 1;
