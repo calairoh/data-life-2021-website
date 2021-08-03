@@ -6,6 +6,11 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 }); 
 
+/* GET problem statement */
+router.get('/problem-statement', function(req, res, next) {
+  res.render('problem-statement', { title: 'Problem Statement' });
+});
+
 /* GET about */
 router.get('/about', function(req, res, next) {
   res.render('about', { title: 'About' });

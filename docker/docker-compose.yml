@@ -1,0 +1,8 @@
+datalifeweb:
+    image: node:12.18.1
+    ports:
+      - "6001:3000"
+    volumes:
+        - ../.:/app
+    stdin_open: true
+  
