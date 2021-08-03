@@ -523,18 +523,11 @@ h3.indent{
 }
 
 .footer__container {
-  display: grid;
+  display: flex;
+  justify-content: space-between;
   grid-template-columns: repeat(5, 1fr);
   column-gap: 1rem;
   margin-bottom: 10px;
-}
-
-.footer__item{
-  grid-column: span 2;
-}
-
-.footer__item:last-child{
-  grid-column: span 1;
 }
 
 .footer__item .logo {
@@ -573,6 +566,33 @@ h3.indent{
 }
 
 @media (max-width: 700px) {
+  .footer__item{
+    width: 100%;
+    text-align: center;
+    margin: 4rem 0;
+  }
+
+  .footer h5, .footer p{
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .nyu-img{
+    width: 70%;
+  }
+
+  .footer img{
+    margin-top: 1rem;
+  }
+
+  .polimi-img{
+    width: 60%;
+  }
+
+  .delcon-img{
+    width: 50%;
+  }
+
   #question-container .main-text-title {
     margin-top: 2rem;
     grid-column: 1 / span 6;
@@ -592,7 +612,7 @@ h3.indent{
   }
 
   .footer__container{
-    display: flex;
+    display: inline;
   }
 
   .intro{
