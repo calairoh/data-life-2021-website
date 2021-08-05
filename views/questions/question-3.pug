@@ -4,10 +4,10 @@ block content
     main.container#question-container
         div.question-title
             h4 DATA-LIFE 2021
-            h1 Why do young people have poor knolwedge about blood donation?
+            h1 Why do young people have poor knowledge about blood donation?
             h3 Barriers to blood donation 
 
-            p.intro-text Reasons for young people having insufficient knowledge about blood donation include lifestyle, donation location, and time limitations. An additional reason could be that young people lack a personal connection to the cause or are not motivated to donate blood unless encouraged by their surroundings due to the lack of awareness and misinformation. Ultimately, young people may not be aware of opportunities due to their lack of interaction with organizations or individuals involved in this process. 
+            p.intro-text Reasons for young people having insufficient knowledge about blood donation include lifestyle, donation location, and time limitations. An additional reason could be that young people lack a personal connection to the cause or are not motivated to donate blood unless encouraged by their surroundings due to the lack of awareness and misinformation. Ultimately, young people may not be aware of opportunities due to their lack of interaction with organizations or individuals involved in this process.
 
         div.main-text-title
             h3 Main findings 
@@ -19,27 +19,45 @@ block content
                 li The second one is related to logistics problems, in the sense that a good part of people issues the fact that it’s difficult to organize place and time to donate
                 li Then we have a miscellaneuos gruop in which we found several reasons. The most common are medical reason, typically the fact that a person weights less then 50kg (it’s quite common actually, especially for women) and also some “strange” reason, like non-sterile needles and fake news based reasons
 
+            div.navchart#q3-c1
+                include ../../public/charts/question3/chart1.svg
+
             p The most frequent reason for not donating is having difficulty acquiring a place and time to donate, followed by the category of 'others' consisting of mainly being anemic, weighing under 50 Kg, cleanliness, and parental influence. The results showed a similar trend in both regions. Furthermore, the results distinguish various misinformation such as reuse of needles, safety measures being ignored, blood donation causes weakness and decrease in athletic performance, and inability to donate blood permanently if you have tattoos or piercings.
 
-        hr
+        hr.divider
 
-        div.main-text-title
-            h3 Where did you first get information about donating blood?
+        div.appendix#appendixA1
+            div.appendix-title
+                p Appendix A1
+                p.bold Where did you first get information about donating blood?
+                p
+                    img(src='../../images/icons/up-arrow.svg' class='arrow-up')
+                    img(src='../../images/icons/down-arrow.svg' class='hidden arrow-down')
+
+
+            div.appendix-body
+                p We also asked survey respondents where they first got information about donating blood to understand sources of existing information regarding this topic. Comparing our target group, those that considered donating blood recently, to prior volunteers, the results showed that, for both groups, friends and/or relatives are the most popular source of information for Italy, and school or employer is the most popular source of information for the US.
+
+                div.chart-svg
+                    include ../../public/charts/question3/chart2.svg
         
-        div.main-text
-            p We also asked survey respondents where they first got information about donating blood to understand sources of existing information regarding this topic. Comparing our target group, those that considered donating blood recently, to prior volunteers, the results showed that, for both groups, friends and/or relatives are the most popular source of information for Italy, and school or employer is the most popular source of information for the US. 
-
-        h3.chart-title.indent ITA results 
-
-        h3.chart-title.indent USA results 
-
-        hr
-
-        div.main-text-title
-            h3 Comments on social media 
+        hr.divider
         
-        div.main-text
-            p Even though social media was not a main source for first receiving blood donation information, we performed a comment analysis to see how social media users interact with the most engaging posts on these platforms. The most engaging post on Twitter showed that one reply out of the four supported blood donations and requested more information. Analyzing the top 20 most engaging posts on Instagram showed positive support and negative feedback for the cause, and there were questions and misinformation present in the comments. 
+        div.appendix#appendixA2
+            div.appendix-title
+                p Appendix A2
+                p.bold Comments on social media
+                p
+                    img(src='../../images/icons/up-arrow.svg' class='arrow-up')
+                    img(src='../../images/icons/down-arrow.svg' class='hidden arrow-down')
 
 
+            div.appendix-body
+                p Even though social media was not a main source for first receiving blood donation information, we performed a comment analysis to see how social media users interact with the most engaging posts on these platforms. The most engaging post on Twitter showed that one reply out of the four supported blood donations and requested more information. Analyzing the top 20 most engaging posts on Instagram showed positive support and negative feedback for the cause, and there were questions and misinformation present in the comments.
 
+                div.chart-svg
+                    include ../../public/images/question3/comments.svg
+
+        hr.divider
+
+        include ../footer

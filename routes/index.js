@@ -16,17 +16,9 @@ router.get('/about', function(req, res, next) {
   res.render('about', { title: 'About' });
 });
 
-/* GET collections */
-router.get('/interviews', function(req, res, next) {
-  res.render('collection/interviews', { title: 'Inteviews' });
-});
-
-router.get('/scraping', function(req, res, next) {
-  res.render('collection/scraping', { title: 'Scraping' });
-});
-
-router.get('/survey', function(req, res, next) {
-  res.render('collection/survey', { title: 'Survey' });
+/* GET data collections */
+router.get('/data-collection', function(req, res, next) {
+  res.render('data-collection', { title: 'Data Collection' });
 });
 
 /* GET outcomes */
