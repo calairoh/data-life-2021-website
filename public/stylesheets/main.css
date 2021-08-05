@@ -584,6 +584,10 @@ h3.indent{
 }
 
 @media (max-width: 700px) {
+  .images{
+    display: inline;
+  }
+
   .footer__item{
     width: 100%;
     text-align: center;
