@@ -22,16 +22,8 @@ router.get('/data-collection', function(req, res, next) {
 });
 
 /* GET outcomes */
-router.get('/influencers-tool', function(req, res, next) {
-  res.render('outcomes/influencer-tool', { title: 'Influencer tool' });
-});
-
-router.get('/personas-timeline', function(req, res, next) {
-  res.render('outcomes/personas-timeline', { title: 'Personas timeline' });
-});
-
-router.get('/social-media-suggestions', function(req, res, next) {
-  res.render('outcomes/sm-suggestions', { title: 'Social media suggestions' });
+router.get('/outcomes', function(req, res, next) {
+  res.render('outcomes', { title: 'Outcomes' });
 });
 
 /* GET questions */
