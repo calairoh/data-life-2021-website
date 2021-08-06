@@ -619,6 +619,18 @@ h3.indent{
   font-style: italic;
 }
 
+#personasUSA{
+  margin-top: 2rem;
+}
+
+#personasUSA .chart-svg, #personasITA .chart-svg{
+  margin: 0;
+}
+
+#personasUSA svg, #personasITA svg{
+  margin-top: -2rem;
+}
+
 @media (max-width: 700px) {
   .images{
     display: inline;
