@@ -185,3 +185,7 @@ mark{
 .dropdown-item:hover {
   background-color: var(--accent) !important;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255) !important;
+}

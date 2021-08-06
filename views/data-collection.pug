@@ -1,4 +1,34 @@
 extends layout
 
 block content 
+    header.cover
+        div
+            div.cover__image
+            div.cover__background
+            h1.cover__title 
+                include ../public/images/data-collection/title.svg
+
+    main.container#question-container
+
+        div.main-text-title
+            h3 Social media scraping
+        
+        div.main-text
+            p We analyzed the possible sources of data related to social media and we ended up deciding to focus on both Instagram and Twitter. Instagram is, in fact, the most common social media used in Italy and specifically Milan while Twitter is the main social media used in NewYork by the young generation. We have avoided TikTok and Facebook for their scrapers’ limitations even though they are quite used by the youngest population.<br>We started by choosing the entry point of both social networks:  hashtags and geolocation.The decision was to use a list of predefined hashtags to collect the majority of the online conversation about blood donation. To constrain the geographical location of the data we rely on Geolocation of posts and tweets as well as special keywords.
+
+
+        div.main-text-title
+            h3 Survey
+        
+        div.main-text
+            p Starting from a qualitative analysis on social media studiyng Archetipical users, we found out that donors care more about social issues. Therefore, posts related to social-ethical topics are helpful content to target potential donors and could also increase the relations between altruistic topics. Starting from a qualitative analysis on social media studiyng Archetipical users, we found out that donors care more about social issues. Therefore, posts related to social-ethical topics are helpful content to target potential donors and could also increase the relations between altruistic topics.
+
+        div.main-text-title
+            h3 Interviews
+        
+        div.main-text
+            p Starting from a qualitative analysis on social media studiyng Archetipical users, we found out that donors care more about social issues. Therefore, posts related to social-ethical topics are helpful content to target potential donors and could also increase the relations between altruistic topics. Starting from a qualitative analysis on social media studiyng Archetipical users, we found out that donors care more about social issues. Therefore, posts related to social-ethical topics are helpful content to target potential donors and could also increase the relations between altruistic topics.
+
+        hr.divider
+
     include footer
