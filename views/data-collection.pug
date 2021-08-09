@@ -16,6 +16,30 @@ block content
         div.main-text
             p We analyzed the possible data sources related to social media and decided to focus on Instagram and Twitter. Instagram is, in fact, the most common social media used in Italy, specifically in Milan, and Twitter is the most common social media used in New York by young people. We avoided TikTok and Facebook despite their popularity amongst the younger generation due to their scrapers’ limitations..<br><br>We started by choosing the entry point of both social networks: hashtags and geolocation. The decision was to use a list of predefined hashtags to collect the majority of online conversations about blood donation. To constrain the geographical location of the data, we relied on the Geolocation and special keywords of posts and tweets.
 
+            //div.appendix#appendixA1
+                div.appendix-title
+                    p Appendix A1
+                    p.bold Instagram Hashtags
+                    p.arrow
+                        img(src='../../images/icons/up-arrow.svg' class='arrow-up')
+                        img(src='../../images/icons/down-arrow.svg' class='hidden arrow-down')
+
+                div.appendix-body
+                    div.chart-svg
+                        include ../public/images/data-collection/IGtagcloud.svg
+
+            //div.appendix#appendixA1
+                div.appendix-title
+                    p Appendix A2
+                    p.bold Twitter Hashtags
+                    p.arrow
+                        img(src='../../images/icons/up-arrow.svg' class='arrow-up')
+                        img(src='../../images/icons/down-arrow.svg' class='hidden arrow-down')
+
+                div.appendix-body
+                    div.chart-svg
+                        include ../public/images/data-collection/TWtagcloud.svg
+
         div.main-text-title#survey
             h3 Survey
         
