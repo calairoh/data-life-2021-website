@@ -458,6 +458,10 @@ h2 {
   align-items: center;
 }
 
+.chart-svg svg{
+  width: 100%;
+}
+
 .chart-svg img{
   margin: 1rem 0;
 }
@@ -661,6 +665,20 @@ h3.indent{
 #influencers{
   margin: -3rem 0;
 }
+
+/*@-moz-document url-prefix() {
+  .chart-svg {
+    justify-content: center;
+  }
+
+  #influencers {
+      margin: auto;
+  }
+
+  #time {
+      margin: auto;
+  }
+}*/
 
 @media (max-width: 700px) {
   .images{
