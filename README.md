@@ -5,7 +5,7 @@
 DATA-LIFE is an interdisciplinary education experience involving students and professors from NYU-CUSP (Center for Urban Science and Progress of the New York University) and from DEIB/Design-POLIMI (Departments of Computer Science and Engineering and of Design of Politecnico di Milano).
 
 ### Focus of the project
-The project aims to analyze and represent the behavior of young generations towards blood donations in the cities of Milano and New York and to understand the main drivers for encouraging these segments to donate blood.
+The project aims to analyze and represent the behavior of young generations towards blood donations in the cities of Milano and New York and to understand the main drivers for encouraging these segments to donate blood. For more details: https://sites.google.com/view/data-life-2020-nyu-polimi
 
 ### Repository
 This repository refers to the final report in the form of a website, that is available <a href="https://data-life-website.herokuapp.com/" target="_blank">here</a>.
