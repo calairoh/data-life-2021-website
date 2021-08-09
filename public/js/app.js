@@ -1,18 +1,6 @@
 $(document).ready(function(){
     initAppendixShowHide();
-    initActiveNavbar();
 });
-
-
-/**
- * Initialize navbar active button
- */
-function initActiveNavbar(){
-    /*$('.nav-item').click(function(){
-        $('.nav-item.active').removeClass('active');
-        $(this).addClass('active');
-    });*/
-}
 
 /**
  * Initialize the show and hide of the appendix when the title is clicked
