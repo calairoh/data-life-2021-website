@@ -234,6 +234,10 @@ main.container > * {
   font-family: 'AT Surt Bold', Helvetica, sans-serif;
 }
 
+#bibliography a, #bibliography a:visited, sup a, sup a:visited{
+  color: #007bff;
+}
+
 #questions {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
